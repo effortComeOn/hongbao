@@ -1,4 +1,5 @@
 // index.ts
+// 有问题微信找 effortCG
 // 获取应用实例
 const app = getApp<IAppOption>()
 
