@@ -3,6 +3,6 @@
 </view>
 
 <view class="btn-wrapper">
-  <button class="btn" wx:for="{{linkArr}}" data-link="{{item}}" type="primary" bindtap="bindViewTap">点我获取封面{{index+1}}
+  <button class="btn" wx:for="{{linkArr}}" data-link="{{item.artical}}" type="primary" bindtap="bindViewTap">{{item.text}}
   </button>
 </view>

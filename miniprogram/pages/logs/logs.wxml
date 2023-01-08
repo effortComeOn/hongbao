@@ -1,1 +1,1 @@
-<web-view src="https://mp.weixin.qq.com/s/K1Gg4WD2iQ1Sc4K1PLS-KQ"></web-view>
+<web-view src="{{link}}"></web-view>
