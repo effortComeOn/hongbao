@@ -7,16 +7,16 @@ Page({
     linkArr: [
       {
         text: "4000款红包封面",
-        artical: 'https://mp.weixin.qq.com/s/K1Gg4WD2iQ1Sc4K1PLS-KQ'
+        artical: 'https://mp.weixin.qq.com/s/iTP6coBA9Klf1S9tlHaDQQ'
       },
       {
         text: "免费红包封面",
-        artical: 'https://mp.weixin.qq.com/s/K1Gg4WD2iQ1Sc4K1PLS-KQ'
+        artical: 'https://mp.weixin.qq.com/s/iTP6coBA9Klf1S9tlHaDQQ'
       },
     ]
   },
   // 事件处理函数
-  bindViewTap(e:any) {
+  bindViewTap(e: any) {
     const link = e.target.dataset.link;
     wx.navigateTo({
       url: `../logs/logs?link=${link}`,
@@ -24,5 +24,6 @@ Page({
   },
   onLoad() {
   },
-  onShareAppMessage() {}
+  onShareAppMessage() { },
+  onShareTimeline() { },
 })
