@@ -7,4 +7,6 @@
 <view class="btn-wrapper">
   <button class="btn" wx:for="{{linkArr}}" data-link="{{item.artical}}" type="primary" bindtap="bindViewTap">{{item.text}}
   </button>
+  <button class="btn" type="primary" bindtap="onTapToMiniApp">{{miniappName}}
+  </button>
 </view>

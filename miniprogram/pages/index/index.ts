@@ -6,6 +6,7 @@ const app = getApp<IAppOption>()
 
 Page({
   data: {
+    miniappName: "头像小程序",
     linkArr: [
       {
         text: "4000款红包封面",
@@ -22,6 +23,16 @@ Page({
     const link = e.target.dataset.link;
     wx.navigateTo({
       url: `../logs/logs?link=${link}`,
+    })
+  },
+  onTapToMiniApp: function () {
+    wx.navigateToMiniProgram({
+      // 跳转小程序 ⬇️ 记得填 appid 和路径
+      appId: "",
+      // 要跳转小程序的页面路径
+      path: "",
+      success: () => { },
+      fail: () => { },
     })
   },
   onLoad() {
