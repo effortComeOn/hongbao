@@ -1,1 +1,3 @@
+<!-- 有问题微信找 effortCG -->
+<!-- 微信视频号 期待晨光 -->
 <web-view wx:if="link" src="{{link}}"></web-view>

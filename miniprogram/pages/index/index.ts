@@ -1,5 +1,6 @@
 // index.ts
 // 有问题微信找 effortCG
+// 微信视频号 期待晨光
 // 获取应用实例
 const app = getApp<IAppOption>()
 
