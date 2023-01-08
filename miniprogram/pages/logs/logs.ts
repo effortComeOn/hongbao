@@ -8,4 +8,5 @@ Page({
   onLoad() {
     
   },
+  onShareAppMessage() {}
 })

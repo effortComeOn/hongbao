@@ -3,9 +3,12 @@
   width: 100%;
   height: 100%;
 }
-.btn {
+.btn-wrapper {
   position: absolute;
-  bottom: 20%;
   left: 50%;
+  bottom: 10%;
   transform: translateX(-50%);
+}
+.btn {
+  margin-bottom: 20px;
 }
