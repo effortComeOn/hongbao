@@ -35,7 +35,7 @@ Page({
     const data = e.currentTarget.dataset;
     const url = this.data.shareData[data.index].url || '';
     wx.navigateTo({
-      url: `/pages/log/log?link=${url}`,
+      url: `/pages/logs/logs?link=${url}`,
     });
   },
 
