@@ -1,6 +1,5 @@
 {
   "usingComponents": {
     "ad-com": "../../components/adCom/adCom"
-  },
-  "navigationBarTitleText": "红包封面"
+  }
 }

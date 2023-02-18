@@ -1,11 +1,12 @@
 // index.ts
 // 有问题微信找 effortCG
-// 微信视频号 期待晨光
+// 微信视频号 程序员晨光
 // 获取应用实例
 const app = getApp<IAppOption>()
 
 Page({
   data: {
+    adUnitId: "adunit-e24413eb78e0c36b",
     miniappName: "头像小程序",
     linkArr: [
       {

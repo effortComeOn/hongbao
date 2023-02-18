@@ -1,0 +1,23 @@
+<!--pages/code/code.wxml-->
+<ad-com unitId='{{adUnitId}}'></ad-com>
+
+<view class="linkMe">
+  <view class="imgStyle">
+    <image src="{{qunAddress}}" mode="aspectFit" show-menu-by-longpress></image>
+  </view>
+
+  <button plain="true" bindtap="copyWx" size="mini" type="primary" class="linkBtn">联系客服</button>
+</view>
+
+<swiper autoplay="true" indicator-dots="true" indicator-color="#fff" indicator-active-color="#06ae56">
+  <block wx:key="index" wx:for="{{shareData}}">
+    <swiper-item class="swiperItem">
+      <view class="swiperItemTitle">{{item.title}}</view>
+      <view bindtap="onTabSwiperItem" data-index="{{index}}" style="width: 100%; height: 400rpx; overflow: hidden;">
+        <image style="width: 100%;" src="{{item.img || imgUrl}}"></image>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view style="height: 20px;"></view>

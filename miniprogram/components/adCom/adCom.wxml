@@ -1,0 +1,5 @@
+<!--components/adCom/adCom.wxml-->
+<view wx:if="{{unitId}}" class="adContainer">
+  <!-- <slot></slot> -->
+  <ad unitId='{{unitId}}' ad-type="{{isBanner ? 'banner' : 'video'}}" ad-theme="white"></ad>
+</view>
