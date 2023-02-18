@@ -5,8 +5,12 @@
   <view class="imgStyle">
     <image src="{{qunAddress}}" mode="aspectFit" show-menu-by-longpress></image>
   </view>
-
-  <button plain="true" bindtap="copyWx" size="mini" type="primary" class="linkBtn">联系客服</button>
+  <view>
+    <view style="margin-bottom: 10px;">
+      问题反馈： 识别左侧二维码， 或者点击下方按钮
+    </view>
+    <button plain="true" bindtap="copyWx" size="mini" type="primary" class="linkBtn">联系客服</button>
+  </view>
 </view>
 
 <swiper autoplay="true" indicator-dots="true" indicator-color="#fff" indicator-active-color="#06ae56">

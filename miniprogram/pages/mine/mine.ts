@@ -14,8 +14,6 @@ Page({
       "title": "职场经验分享",
       "url": "https://mp.weixin.qq.com/s/U1-JDM6DXRNm8Gpg9deQNw"
     }],
-    "desc": "在小程序的使用过程中遇到问题，可以点击下方按钮联系客服哦～",
-    "showQunImg": true,
     "keyWord": "code",
     "adUnitId": "adunit-e7aab84f9ed20008",
   },
@@ -24,10 +22,12 @@ Page({
     // 下方为微信开发文档中的复制 API
     wx.setClipboardData({
       data: 'hammerzhang01', //复制的数据
-    });
-    wx.showToast({
-      icon: 'none',
-      title: '复制成功',
+      success: () => {
+        wx.showToast({
+          icon: 'none',
+          title: '客服 wx 复制成功',
+        });
+      }
     });
   },
 
