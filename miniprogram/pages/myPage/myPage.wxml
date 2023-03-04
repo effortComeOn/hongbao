@@ -1,0 +1,33 @@
+<!--pages/myPage/myPage.wxml-->
+<notice>
+  <view slot="before">notice before slot</view>
+  <view slot="after">notice after slot</view>
+</notice>
+
+<button type="primary" bindtap="setShowText">{{showText ? '显示文字' : '隐藏文字'}}</button>
+<!-- view 上新增 wx:if="{{showText}}" -->
+<view wx:if="{{showText}}" wx:for="{{textArr}}">{{item}}</view>
+
+<view style="height: 20px"></view>
+
+<view class="view1" wx:for="{{moreData}}">
+  <view>
+    {{item.text}}
+  </view>
+  <view bindtap="onTapText" data-text="{{temp}}" wx:for="{{item.arr}}" wx:for-index="tempIndex" wx:for-item="temp">
+    {{tempIndex+1}} {{temp}}
+  </view>
+</view>
+
+<view class="view1">
+  <button size="mini">小按钮</button>
+  <button size="default">默认大小的按钮</button>
+  <button type="default">白色按钮</button>
+  <button type="primary">绿色按钮</button>
+  <button type="warn">红色文字按钮</button>
+</view>
+<view class="view1">
+  <button plain="true" style="width: 80%; color: blue;">镂空按钮</button>
+  <button type="primary" plain="true" style="width: 90%;">绿色的镂空按钮</button>
+  <button disabled="true">禁用态的按钮</button>
+</view>

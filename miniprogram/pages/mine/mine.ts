@@ -15,7 +15,7 @@ Page({
       "url": "https://mp.weixin.qq.com/s/U1-JDM6DXRNm8Gpg9deQNw"
     }],
     "keyWord": "code",
-    "adUnitId": "adunit-e7aab84f9ed20008",
+    "adUnitId": "adunit-7bfd454af905a970",
   },
   // 复制微信
   copyWx() {

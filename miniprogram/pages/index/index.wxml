@@ -12,4 +12,6 @@
   </button>
   <button class="btn" type="primary" bindtap="onTapToMiniApp">{{miniappName}}
   </button>
+  <button class="btn" type="primary" bindtap="gotoMyPage">我的页面
+  </button>
 </view>

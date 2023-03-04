@@ -1,0 +1,9 @@
+<!--components/notice/notice.wxml-->
+<view class="notice">
+  <slot name="before"></slot>
+
+  <view>view {{text}}</view>
+  <text>text {{text}}</text>
+  
+  <slot name="after"></slot>
+</view>

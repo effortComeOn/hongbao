@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "notice": "../../components/notice/notice"
+  },
+  "navigationBarTitleText": "我的页面"
+}

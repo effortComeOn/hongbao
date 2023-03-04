@@ -1,0 +1,9 @@
+/* components/notice/notice.wxss */
+.notice {
+  padding: 2% 4%;
+  box-sizing: border-box;
+  background-color: #ffeccc;
+  color: #ff6a00;
+  font-size: 24rpx;
+}
+

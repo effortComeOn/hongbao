@@ -6,7 +6,7 @@ const app = getApp<IAppOption>()
 
 Page({
   data: {
-    adUnitId: "adunit-e24413eb78e0c36b",
+    adUnitId: "adunit-7bfd454af905a970",
     miniappName: "头像小程序",
     linkArr: [
       {
@@ -35,6 +35,12 @@ Page({
       success: () => { },
       fail: () => { },
     })
+  },
+  gotoMyPage() {
+    console.log('===')
+    wx.navigateTo({
+      url: "/pages/myPage/myPage"
+    });
   },
   onLoad() {
   },

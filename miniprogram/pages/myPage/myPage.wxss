@@ -1,0 +1,13 @@
+.view1 {
+  border: 1px solid #333;
+  padding: 12px;
+  margin: 12px;
+}
+
+.view1 button {
+  margin-top: 10px;
+}
+
+text {
+  color: blue;
+}
